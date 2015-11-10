@@ -1,1 +1,1 @@
-echo "First Script" >> ~/firstscript.txt
+echo "First Script" >> /firstscript.txt

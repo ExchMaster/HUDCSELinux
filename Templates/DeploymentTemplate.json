@@ -56,7 +56,7 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_A0",
+      "defaultValue": "Standard_A2",
       "metadata": {
         "description": "Size of the Virtual Machine"
       }
@@ -220,12 +220,12 @@
       "properties": {
         "publisher": "Microsoft.OSTCExtensions",
         "type": "CustomScriptForLinux",
-        "typeHandlerVersion": "1.2",
+        "typeHandlerVersion": "1.3",
         "settings": {
           "fileUris": [
             "https://raw.githubusercontent.com/ExchMaster/HUDCSELinux/master/Scripts/firstscript.sh"
           ],
-          "commandToExecute": "sh firstscript.sh"
+          "commandToExecute": "firstscript.sh"
         }
       }
     }
